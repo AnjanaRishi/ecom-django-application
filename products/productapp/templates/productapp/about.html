@@ -1,0 +1,63 @@
+{% extends "master.html" %}
+{% block content %} 
+<style>
+  
+  .jumbotron {
+      background-color: #f8f9fa;
+      padding: 2rem 1rem;
+  }
+  .card {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
+<div class="jumbotron">
+  <div class="container">
+      <h1 class="display-4">Welcome to our shopping experience</h1>
+      <p class="lead">Discover the latest trends, shop your favorites, and find amazing deals.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Our Mission</h5>
+                  <p class="card-text">"To provide an unparalleled shopping experience with exceptional customer service and a wide selection of quality products."</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Why Choose Us?</h5>
+                  <p class="card-text">"Your satisfaction is our priority. We believe in making every shopping moment a delightful experience."</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="row mt-4">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Customer Focus</h5>
+                  <p class="card-text">"We listen to your needs and strive to exceed your expectations with every purchase."</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Quality Assurance</h5>
+                  <p class="card-text">"We curate products that meet the highest standards of quality and reliability."</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+{% endblock %}

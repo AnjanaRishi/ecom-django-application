@@ -1,0 +1,17 @@
+
+{% extends "master.html" %}
+{% block title %}
+    Product List
+{% endblock %}
+
+{% block content %}
+<h1>Products List</h1>
+<h3>
+    {{message}}
+</h3>
+{% for product in products %}
+    <a href="/productapp/{{product.id}}">{{product.title}}<br></a></h4>
+
+{% endfor %}
+
+{% endblock %}
